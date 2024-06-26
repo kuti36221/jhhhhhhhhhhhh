@@ -1,0 +1,43 @@
+.blue {
+  border: 2px solid black;
+  height: 290px;
+  background-color: blue;
+  width: 270px;
+  position: relative;
+  top: 40px;
+  left: 45px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.black {
+  border: 2px solid white;
+  height: 290px;
+  position: relative;
+  top: 15px;
+  left: 15px;
+  width: 275px;
+  background-color: black;
+  border-radius: 20px;
+
+}
+p {
+  color: white;
+  text-align: center;
+}
+.popup1btn {
+  font-size: 17px;
+  color: white;
+  background-color: blue;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  border-radius: 20px;
+}
+.btn2 {
+  font-weight: bold;
+  position: relative;
+  top: 35px;
+  margin-left: 40px;
+}

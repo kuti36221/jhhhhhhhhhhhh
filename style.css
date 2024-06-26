@@ -1,0 +1,10 @@
+a{
+  font-size: 40px;
+  font-weight: bold;
+  background-color: blue;
+  color: white;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-top: 150px;
+  margin-left: 90px;
+}

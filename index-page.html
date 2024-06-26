@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trade-Station</title>
+   <link rel="stylesheet" href="landing.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">@Trade-Station</div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="03-sigup.html">Sign up</a></li>
+            <li><a href="04-signin.html">Sign in</a></li>
+        </ul>
+        <div class="burger" id="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <div  class="main">
+      
+      <img src=".//section_1.webp" alt=""
+      width="320px" height="300px" class="img1">
+
+      <div class="work">
+        <h2 id="put">Put your money to work</h2>
+        <h3 id="grow">Invest wisely. Grow wealth</h3>
+        <button class="btn1" onclick="myfunction()">Open an account</button>
+        <img src=".//section_5.webp" alt="" class="img2">
+        <div class="sub">
+          <H2 id="h22">Get a littel richer each day</H2>
+          <p>One small step today, a giant leap of tomorrow.</p>
+          <button class="btn2" onclick="myfunction()">start your finanace jounery today</button>
+        </div>
+      </div>
+    </div>
+
+    <script> document.getElementById('burger').addEventListener('click', function() {
+      document.getElementById('nav-links').classList.toggle('active');
+    });</script>
+</body>
+</html>

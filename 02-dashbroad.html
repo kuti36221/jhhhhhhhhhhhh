@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dashbroad</title>
+  <link rel="stylesheet" href="dashbroad.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">@Trade-Station</div>
+    <ul class="nav-links" id="nav-links">
+        <li><a href="03-sigup.html">Invest</a></li>
+        <li><a href="05-withdrawal.html">Withdrawal</a></li>
+    </ul>
+    <div class="burger" id="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+</nav>
+   <div class="main">
+      <div class="testimony">
+        <marquee behavior="" direction="down" class="move">Earn with us, Trade with us, Profit with us <br>,,,,,,,,,, make $1800 in a day with us </marquee>
+      </div>
+      <h4 class="mmmb">Main Balance</h4>
+      <div class="mainbalance">
+        <h3 class="amount"> $300.00</h3>
+      </div>
+      <H5>Interest Balance</H5>
+      <div class="intbala">
+        <h3 class="amount">$0.00</h3>
+        <h2 class="draw">Withdrawal </h3>
+          <div class="Withdrawal">
+            <h3 class="amount">$0.00</h3>
+          </div>
+          <h2 class="invest">Investment </h3>
+            <div class="Invest">
+              <h3 class="amount">$0.00</h3>
+            </div>
+            <h2 class="deposit">Deposit </h3>
+              <div class="Deposit">
+                <h3 class="amount">$0.00</h3>
+              </div>
+      </div>
+      <button onclick="myfunction()">Withdraw</button>
+      
+      <h2 class="trans">TRANSATION</h2>
+      <h2 class="his">HISTORY</h2>
+      <h3 class="content"> Give-Away Price Given </h3>
+      <h3 class="content">Withdraw Give-Away </h3>
+      <h3 class="content">Total withdrawal</h3>
+      <h3 class="content">Total Deposit</h3>
+      <h3 class="content">Total Investment</h3>
+      <h4 class="dollar">$300.00</h4>
+      <h4 class="dollar">$0.00</h4>
+      <h4 class="dollar">$0.00</h4>
+      <h4 class="dollar">$0.00</h4>
+      <h4 class="dollar">$0.00</h4>
+      
+   </div>
+   <script>
+   /* alert('Thank for sign up to Trade-Station go to withdrawal to withdraw your $30.00 giveaway')*/
+
+    function myfunction () {
+      window.location.href="05-withdrawal.html"
+    }
+   </script>
+   <script>document.getElementById('burger').addEventListener('click', function() {
+    document.getElementById('nav-links').classList.toggle('active');
+  });</script>
+</body>
+</html>
